@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: #113238; /* Dark blue color */
+    background-color: #113238; 
     color: #fff;
     width: 100%;
     padding: 10px 0;
@@ -138,19 +138,19 @@ section#sitemap ul li a {
 }
 
 .dark-theme header {
-    background-color: #b34700; /* Slightly darker shade of the dark orange color */
+    background-color: #b34700; 
 }
 
 .dark-theme header nav ul li a {
-    color: #fff; /* Making sure link color changes appropriately in dark mode */
+    color: #fff;
 }
 
-.dark-theme nav[aria-label="breadcrumb"] ol li a {
-    color: #ffa500; /* Light orange for better contrast in dark theme */
+.dark-theme nav[aria-label="breadcrumb"] ol li /a {
+    color: #ffa500; 
 }
 
 .dark-theme section#sitemap ul li a {
-    color: #ffa500; /* Light orange for better contrast in dark theme */
+    color: #ffa500; 
 }
 
 footer {
